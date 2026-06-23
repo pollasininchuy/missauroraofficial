@@ -1,0 +1,2 @@
+import {Card,Button} from '@/components/ui';
+export default function JudgeLogin(){return <main className="grid min-h-screen place-items-center bg-aurora-navy p-6"><Card className="w-full max-w-md"><h1 className="font-display text-4xl gold-text">Judge Login</h1><input className="mt-6 w-full rounded-xl bg-white/10 p-3" placeholder="Username"/><input className="mt-3 w-full rounded-xl bg-white/10 p-3" placeholder="Password" type="password"/><div className="mt-6"><Button>Enter Judge Panel</Button></div></Card></main>}

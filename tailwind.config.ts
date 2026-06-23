@@ -1,0 +1,3 @@
+import type { Config } from 'tailwindcss';
+const config: Config = { content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './lib/**/*.{ts,tsx}'], theme: { extend: { colors: { aurora: { navy: '#061326', gold: '#d7a84f', champagne: '#f8e8b0' } }, fontFamily: { display: ['var(--font-playfair)', 'serif'], sans: ['var(--font-inter)', 'sans-serif'] }, boxShadow: { glow: '0 0 40px rgba(215,168,79,.28)' }, keyframes: { float: {'0%,100%':{transform:'translateY(0)'}, '50%':{transform:'translateY(-10px)'}}, shimmer: {'0%':{backgroundPosition:'0% 50%'}, '100%':{backgroundPosition:'200% 50%'}} }, animation: { float:'float 6s ease-in-out infinite', shimmer:'shimmer 4s linear infinite' } } }, plugins: [] };
+export default config;

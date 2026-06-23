@@ -1,0 +1,2 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{color-scheme:dark}body{background:#061326;color:#fff}.glass{background:linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.04));border:1px solid rgba(248,232,176,.22);backdrop-filter:blur(18px)}.gold-text{background:linear-gradient(90deg,#b7791f,#f8e8b0,#d7a84f);-webkit-background-clip:text;background-clip:text;color:transparent}.gold{background:linear-gradient(135deg,#8a5a12,#f8e8b0,#d7a84f,#7c4a03)}
